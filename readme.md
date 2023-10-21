@@ -20,13 +20,13 @@ bun dev
 
 Open http://localhost:3000
 
+### Opens Remotion Studio
+
 ```
 bun run remotion
 ```
 
-Open Remotion Studio:
-
-## Deploy to AWS
+### Deploy to AWS
 
 ```
 node deploy.mjs
@@ -38,7 +38,7 @@ You should run this script after:
 - changing `config.mjs`
 - upgrading Remotion to a newer version
 
-## Set up rendering on AWS Lambda
+### Set up rendering on AWS Lambda
 
 Can also render videos via [Remotion Lambda](https://remotion.dev/lambda).
 
